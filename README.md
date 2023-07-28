@@ -1,5 +1,12 @@
 # FedCampus: A Federated Learning & Federated Analytics Experiment on DKU Campus
 
+## TODO
+
+- [ ] One problem to solve, as theme.
+- [ ] FL application.
+- [ ] FA.
+- [ ] Stress giving to the community.
+
 ## The FedCampus platform
 
 ### Introducing FedCampus (Steven, 30s)
