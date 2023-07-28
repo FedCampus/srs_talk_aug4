@@ -1,28 +1,70 @@
 # FedCampus: A Federated Learning & Federated Analytics Experiment on DKU Campus
 
-## Introducing Federated Learning (FL)
+## The FedCampus platform
 
-### Motivation
+### Introducing FedCampus (Steven, 30s)
 
-- Centralized ML tend to invade privacy land.
-- ML at large scales using privacy data is very useful.
+- Privacy-preserving data collection platform for smart campus.
+    - Data analytics.
+- Edge devices: smartphones, smartwatches, IoTs.
+- Systems development to provide research potentials.
+    - Some of them we introduce next.
+    - Collaboration wanted.
 
-### How FL works
+### Introducing Federated Learning (FL)
 
+#### Motivation for FL (20s)
+
+- Centralized ML invades privacy land.
+- ML using privacy data is useful.
+
+#### How FL works (1min)
+
+- Local data & local ML training.
+- Central server coordinate training and aggregate ML model.
 - Analogy: the Federated Government.
 
-## Health data and privacy
+### Flower: FL framework (30s)
+
+- gRPC: coordinate training & transmit ML model parameters.
+    - Connection: bidirectional & alive information.
+- Strategies: schedule training & aggregate ML model.
+
+### FedKit: on-demand mobile FL for FedCampus
+
+#### Motivation for FedKit (40s)
+
+- Mobile FL research: existing solutions suck.
+- Mobile FL is crucial.
+- Flower server not persistent.
+- Server-side ML model swapping.
+- Telemetry.
+
+#### Solution by FedKit (20s)
+
+- Backend: Django REST Framework.
+- Android on-device training: TensorFlow Lite.
+    - `.tflite` binary format.
+
+#### FedKit FL process (1min)
+
+1. ML model: app obtains from backend.
+1. Spawn Flower server: app requests backend.
+1. Train: ordinary Flower training.
+
+## FedCampus potential use cases
+
+### Health data and privacy
 
 - Tremendously useful yet sensitive use case.
 
 ### Case study: sleep efficiency prediction (Aicha)
 
-## Mobile FL on DKU campus
+### Dealing with non-IID-ness (Tianjun)
 
-- Nobody has solved mobile FL. Doing mobile FL research sucks.
-- Mobile FL is crucial. Everyone relies on their phone so much.
+TODO: How does this fit in.
 
-### Starting point: FedCampus App (Beilong)
+## Start of the FedCampus app (Beilong)
 
 ### Physical infrastructure (Johnny)
 
