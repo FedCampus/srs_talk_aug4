@@ -3,6 +3,7 @@
 ## TODO
 
 - [ ] One problem to solve, as theme.
+    - How do we learn from the data generated on DKU campus, but without collecting them?
 - [ ] FL application.
 - [ ] FA.
 - [ ] Stress giving to the community.
