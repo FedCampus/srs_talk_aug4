@@ -13,14 +13,19 @@
 
 How do we learn from data generated on DKU campus, without collecting them?
 
+<!-- I am asking this question because this is exact what FedCampus aims to achieve. -->
+
 ### Introducing FedCampus (Steven, 30s)
 
-- Privacy-preserving data collection platform for smart campus to benefit community.
+- Privacy-preserving data collection platform for smart campus.
     - Data analytics.
+    - Benefits community.
 - Edge devices: smartphones, smartwatches, IoTs.
 - Systems development to provide research potentials.
     - Some of them we introduce next.
     - Collaboration wanted.
+
+<!-- Remind the question. -->
 
 #### Steps to build up FedCampus
 
