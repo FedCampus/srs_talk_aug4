@@ -3,21 +3,30 @@
 ## TODO
 
 - [ ] One problem to solve, as theme.
-    - How do we learn from the data generated on DKU campus, but without collecting them?
 - [ ] FL application.
-- [ ] FA.
+    - Gboard in 2017.
 - [ ] Stress giving to the community.
 
 ## The FedCampus platform
 
+### Motivation for FedCampus
+
+How do we learn from data generated on DKU campus, without collecting them?
+
 ### Introducing FedCampus (Steven, 30s)
 
-- Privacy-preserving data collection platform for smart campus.
+- Privacy-preserving data collection platform for smart campus to benefit community.
     - Data analytics.
 - Edge devices: smartphones, smartwatches, IoTs.
 - Systems development to provide research potentials.
     - Some of them we introduce next.
     - Collaboration wanted.
+
+#### Steps to build up FedCampus
+
+1. FL platform.
+1. ML & FL algorithms.
+1. User-facing app.
 
 ### Introducing Federated Learning (FL)
 
