@@ -7,15 +7,15 @@
     - Gboard in 2017.
 - [ ] Stress giving to the community.
 
-## The FedCampus platform
-
-### Motivation for FedCampus
+## Motivation for FedCampus (Steven, 20s)
 
 How do we learn from data generated on DKU campus, without collecting them?
 
-<!-- I am asking this question because this is exact what FedCampus aims to achieve. -->
+(Ask audience for answers).
 
-### Introducing FedCampus (Steven, 30s)
+(This is exact what FedCampus aims to achieve).
+
+## Introducing FedCampus (30s)
 
 - Privacy-preserving data collection platform for smart campus.
     - Data analytics.
@@ -23,58 +23,53 @@ How do we learn from data generated on DKU campus, without collecting them?
 - Edge devices: smartphones, smartwatches, IoTs.
 - Systems development to provide research potentials.
     - Some of them we introduce next.
-    - Collaboration wanted.
+- Collaboration wanted.
 
-<!-- Remind the question. -->
+(Remind the question).
 
-#### Steps to build up FedCampus
+## Steps to build up FedCampus
 
 1. Federated Learning platform.
 1. ML & FL algorithms.
 1. User-facing app.
 
-### Federated Learning platform
+## Federated Learning platform
 
 <!-- Promise that FL solves our problem. -->
 
-#### Introducing Federated Learning (FL) (1min)
+### Introducing Federated Learning (FL) (1min)
 
 - Local data & local ML training.
 - Central server coordinate training and aggregate ML model.
 - Analogy: the Federated Government.
 
-#### Why FL is the way forward (20s)
+### Why FL is the way forward (20s)
 
 - Centralized ML invades privacy land.
 - ML using privacy data is useful.
 - FL solves this problem, especially mobile FL.
 
-#### Existing mobile FL solutions suck (20s)
+### Existing mobile FL solutions suck (20s)
 
 - FLaaS: send data to proprietary cloud.
 - Open source solutions: poor mobile support/ very basic.
 
-### Flower: FL framework (30s)
+### FedKit: on-demand mobile FL platform for FedCampus
 
-- gRPC: coordinate training & transmit ML model parameters.
-    - Connection: bidirectional & alive information.
-- Strategies: schedule training & aggregate ML model.
-
-#### FedKit: on-demand mobile FL platform for FedCampus
-
+- Self-hosted & open source.
 - Persistent on-demand service.
 - Server-side ML model swapping.
 - Telemetry.
 
 (Tech stack graph).
 
-#### FedKit FL process (1min)
+### FedKit FL process (1min)
 
 1. ML model: app obtains `.tflite` model from backend.
 1. Spawn Flower server: app requests backend.
 1. Train: using Flower with gRPC connection.
 
-## FedCampus potential use cases
+## ML & FL algorithms
 
 ### Health data and privacy
 
@@ -86,9 +81,13 @@ How do we learn from data generated on DKU campus, without collecting them?
 
 TODO: How does this fit in.
 
-## Start of the FedCampus app (Beilong)
+## User-facing app (Beilong)
+
+TODO: Getting data from Huawei Health, etc.
 
 ### Physical infrastructure (Johnny)
+
+TODO: We cannot have data safety using cloud.
 
 ## How you can engage with us
 
