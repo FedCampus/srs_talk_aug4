@@ -1,12 +1,5 @@
 # FedCampus: A Federated Learning & Federated Analytics Experiment on DKU Campus
 
-## TODO
-
-- [ ] One problem to solve, as theme.
-- [ ] FL application.
-    - Gboard in 2017.
-- [ ] Stress giving to the community.
-
 ## Motivation for FedCampus (Steven, 20s)
 
 How do we learn from data generated on DKU campus, without collecting them?
@@ -48,6 +41,13 @@ How do we learn from data generated on DKU campus, without collecting them?
 - Centralized ML invades privacy land.
 - ML using privacy data is useful.
 - FL solves this problem, especially mobile FL.
+
+### FL example: Gboard in 2017 (20s)
+
+Google's smart keyboard.
+
+- Next word prediction.
+- Train on user's phones when idle.
 
 ### Existing mobile FL solutions suck (20s)
 

@@ -4,4 +4,6 @@
 
 [ChatGPT maker OpenAI faces a lawsuit over how it used people’s data](https://www.washingtonpost.com/technology/2023/06/28/openai-chatgpt-lawsuit-class-action/)
 
+[FedKit: Mobile Federated Learning & Federated Analytics development kit for FedCampus](https://github.com/FedCampus/FedKit)
+
 [Federated Learning: Collaborative Machine Learning without Centralized Training Data](https://ai.googleblog.com/2017/04/federated-learning-collaborative.html)
