@@ -29,22 +29,30 @@ How do we learn from data generated on DKU campus, without collecting them?
 
 #### Steps to build up FedCampus
 
-1. FL platform.
+1. Federated Learning platform.
 1. ML & FL algorithms.
 1. User-facing app.
 
-### Introducing Federated Learning (FL)
+### Federated Learning platform
 
-#### Motivation for FL (20s)
+<!-- Promise that FL solves our problem. -->
 
-- Centralized ML invades privacy land.
-- ML using privacy data is useful.
-
-#### How FL works (1min)
+#### Introducing Federated Learning (FL) (1min)
 
 - Local data & local ML training.
 - Central server coordinate training and aggregate ML model.
 - Analogy: the Federated Government.
+
+#### Why FL is the way forward (20s)
+
+- Centralized ML invades privacy land.
+- ML using privacy data is useful.
+- FL solves this problem, especially mobile FL.
+
+#### Existing mobile FL solutions suck (20s)
+
+- FLaaS: send data to proprietary cloud.
+- Open source solutions: poor mobile support/ very basic.
 
 ### Flower: FL framework (30s)
 
@@ -52,27 +60,19 @@ How do we learn from data generated on DKU campus, without collecting them?
     - Connection: bidirectional & alive information.
 - Strategies: schedule training & aggregate ML model.
 
-### FedKit: on-demand mobile FL for FedCampus
+#### FedKit: on-demand mobile FL platform for FedCampus
 
-#### Motivation for FedKit (40s)
-
-- Mobile FL research: existing solutions suck.
-- Mobile FL is crucial.
-- Flower server not persistent.
+- Persistent on-demand service.
 - Server-side ML model swapping.
 - Telemetry.
 
-#### Solution by FedKit (20s)
-
-- Backend: Django REST Framework.
-- Android on-device training: TensorFlow Lite.
-    - `.tflite` binary format.
+(Tech stack graph).
 
 #### FedKit FL process (1min)
 
-1. ML model: app obtains from backend.
+1. ML model: app obtains `.tflite` model from backend.
 1. Spawn Flower server: app requests backend.
-1. Train: ordinary Flower training.
+1. Train: using Flower with gRPC connection.
 
 ## FedCampus potential use cases
 
