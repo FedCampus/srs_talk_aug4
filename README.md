@@ -36,18 +36,18 @@ How do we learn from data generated on DKU campus, without collecting them?
 - Central server coordinate training and aggregate ML model.
 - Analogy: the Federated Government.
 
-### Why FL is the way forward (20s)
-
-- Centralized ML invades privacy land.
-- ML using privacy data is useful.
-- FL solves this problem, especially mobile FL.
-
 ### FL example: Gboard in 2017 (20s)
 
 Google's smart keyboard.
 
 - Next word prediction.
 - Train on user's phones when idle.
+
+### Why FL is the way forward (20s)
+
+- Centralized ML invades privacy land.
+- ML using privacy data is useful.
+- FL solves this problem, especially mobile FL.
 
 ### Existing mobile FL solutions suck (20s)
 
