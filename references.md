@@ -6,4 +6,12 @@
 
 [FedKit: Mobile Federated Learning & Federated Analytics development kit for FedCampus](https://github.com/FedCampus/FedKit)
 
+[FedML](https://fedml.ai/)
+
 [Federated Learning: Collaborative Machine Learning without Centralized Training Data](https://ai.googleblog.com/2017/04/federated-learning-collaborative.html)
+
+[Flower: A Friendly Federated Learning Framework](https://flower.dev/)
+
+[Nevron - Enterprise-ready Federated Learning](https://nevron.ai/)
+
+[Project Florida: Federated Learning Made Easy](https://arxiv.org/pdf/2307.11899.pdf)
