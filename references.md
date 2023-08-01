@@ -15,3 +15,5 @@
 [Nevron - Enterprise-ready Federated Learning](https://nevron.ai/)
 
 [Project Florida: Federated Learning Made Easy](https://arxiv.org/pdf/2307.11899.pdf)
+
+[What is Federated Learning?](https://www.youtube.com/watch?v=X8YYWunttOY&t=118s)

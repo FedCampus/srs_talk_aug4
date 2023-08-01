@@ -63,7 +63,7 @@ Google's smart keyboard.
 
 (Tech stack graph).
 
-### FedKit FL process (1min)
+### FedKit training process (1min)
 
 1. ML model: app obtains `.tflite` model from backend.
 1. Spawn Flower server: app requests backend.
